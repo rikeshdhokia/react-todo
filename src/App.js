@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './App.css';
-import Trello from './Trello';
+import TrelloPane from './TrelloPane';
 
 class App extends Component {
   render() {
@@ -12,7 +12,7 @@ class App extends Component {
           <h1 className="App-title">MyToDo</h1>
         </header>
         <div className="Trello-container">
-          <Trello />
+          <TrelloPane />
         </div>
       </div>
     );
