@@ -7,8 +7,8 @@ class TrelloPane extends Component {
   render() {
     return (
       <div className="TrelloPane">
-        Board will live here
-        # loop through boards
+        Boards will live here
+        <TrelloBoard />
         <TrelloBoard />
       </div>
     );

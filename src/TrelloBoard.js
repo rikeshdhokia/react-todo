@@ -6,8 +6,7 @@ class TrelloBoard extends Component {
   render() {
     return (
       <div className="TrelloBoard">
-        Some cards
-        # loop through boards
+        List of relevant cards
       </div>
     );
   }
