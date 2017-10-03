@@ -9,3 +9,5 @@ You can find the most recent version of this guide [here](https://github.com/fac
 - Show 5 more cards button
 - Create an empty prioritised List
 - Move trello card to prioritised List
+- Which boards I want to view
+- Which labels I want shown
