@@ -4,12 +4,14 @@ import './TrelloPane.css';
 import TrelloBoard from './TrelloBoard';
 
 class TrelloPane extends Component {
+
   render() {
+    const boardId = 'ZCTrZtOW';
+    
     return (
       <div className="TrelloPane">
         Boards will live here
-        <TrelloBoard />
-        <TrelloBoard />
+        <TrelloBoard boardId={boardId} />
       </div>
     );
   }
