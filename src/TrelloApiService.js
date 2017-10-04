@@ -1,8 +1,9 @@
 import mockCards from './cards.json';
+import _ from 'lodash';
 
 const getBoardCards = function(boardId) {
-  console.log('TrelloApiService.getBoardCards: will fetch cards from ' + boardId);
-  return mockCards;
+  const sorted = _.chain(mockCards).sortBy('dateLastActivity').reverse().value();
+  return sorted;
 };
 
 const TrelloApiService = {getBoardCards};
