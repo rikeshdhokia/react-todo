@@ -5,8 +5,10 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 ## Tasks
 - Card should have Name and List label and link to Trello
-- Show 5 more cards button
 - Create an empty prioritised List
+- Show 5 more cards button
 - Move trello card to prioritised List
-- Which boards I want to view
-- Which labels I want shown
+- Order cards by last activity
+- Choose which boards I want to view
+- Choose which labels I want shown
+- use Trello's sdk - client.js - instead of hand rolled API calls

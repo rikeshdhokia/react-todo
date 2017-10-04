@@ -1,0 +1,8 @@
+.TrelloCard {
+  border: solid black 1px;
+  margin-bottom: 8px
+}
+
+.TrelloCard-last-activity {
+  font-size: x-small;
+}
